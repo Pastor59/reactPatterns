@@ -1,0 +1,1 @@
+Dummy examples to practise patterns with react.
