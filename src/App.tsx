@@ -3,7 +3,7 @@ import 'materialize-css/dist/js/materialize.min.js';
 import { Context } from './context';
 import NavBar from './navbar';
 import ToDoList from './list';
-import { Subscribable } from './subscribe';
+import { Subscribable } from './patterns/subscribe';
 
 function App() {
   const subscribable = new Subscribable();

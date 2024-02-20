@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { Subscribable } from "../subscribe";
+import { Subscribable } from "../patterns/subscribe";
 
 type ContextType = {
     subscribable: Subscribable
